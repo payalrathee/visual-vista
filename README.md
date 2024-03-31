@@ -3,9 +3,13 @@
 Visual Vista is a WordPress plugin designed to display filtered images from the media gallery based on a prefix in different templates such as grid and slider.
 
 ### Grid 
+[vsvt_image_gallery prefix="fashion" template="grid"]
+
 ![image](https://github.com/payalrathee/visual-vista/assets/68552642/108b62c8-53e1-4632-85e0-79849b191906)
 
 ### Slider
+[vsvt_image_gallery prefix="fashion_template" template="slider"]
+
 ![image](https://github.com/payalrathee/visual-vista/assets/68552642/416378f6-0c64-4385-95fc-249e60350a65)
 
 
@@ -33,3 +37,15 @@ Use the following shortcode to display the image gallery:
 2. Upload the plugin files to the `/wp-content/plugins/visual-vista` directory, or install the plugin through the WordPress plugins screen directly.
 3. Activate the plugin through the 'Plugins' screen in WordPress.
 4. Use the `[vsvt_image_gallery]` shortcode in any post or page to display the image gallery.
+
+## Requirements
+
+- WordPress 6
+- PHP 8.0.28
+- MySQL
+- External Libraries:
+  - Slick Slider: A responsive carousel jQuery plugin.
+
+## Author
+
+Visual Vista is developed by [Payal Rathee](https://github.com/payalrathee).
