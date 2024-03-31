@@ -2,7 +2,12 @@
 
 Visual Vista is a WordPress plugin designed to display filtered images from the media gallery based on a prefix in different templates such as grid and slider.
 
+### Grid 
 ![image](https://github.com/payalrathee/visual-vista/assets/68552642/108b62c8-53e1-4632-85e0-79849b191906)
+
+### Slider
+![image](https://github.com/payalrathee/visual-vista/assets/68552642/416378f6-0c64-4385-95fc-249e60350a65)
+
 
 ## Features
 
