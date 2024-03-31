@@ -1,0 +1,19 @@
+/*
+* Grid styles for visual vista plugin
+*/
+
+.vsvt_grid_wrapper.vsvt_image_gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.vsvt_grid_wrapper .vsvt_image_wrapper {
+    height: 250px;
+    width: 250px;
+    box-shadow: 0 0 10px #aaa;
+}
+.vsvt_grid_wrapper .vsvt_image_wrapper:hover{
+    box-shadow: 0 0 20px #aaa;
+}

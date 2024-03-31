@@ -1,0 +1,15 @@
+/*
+* Common styles for visual vista plugin
+*/
+
+.vsvt_image_gallery {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.vsvt_image_wrapper img {
+    height: 100%;
+    width: 100%;
+}

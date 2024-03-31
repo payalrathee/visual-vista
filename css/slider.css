@@ -1,0 +1,43 @@
+/*
+* Slider styles for visual vista plugin
+*/
+.slick-next, .slick-prev {
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    z-index: 999;
+    border-radius: 50%;
+    color: black
+}
+.slick-next:hover, .slick-prev:hover {
+    background: transparent !important;
+}
+.slick-prev {
+    left: 20px;
+}
+.slick-next {
+    right: 20px;
+}
+.slick-prev::before {
+    content: '<';
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+
+    font-family: 'Font Awesome 5 Free';
+    content: "\f053";
+    font-weight: 900;
+}
+.slick-next::before {
+    content: '>';
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+
+    font-family: 'Font Awesome 5 Free';
+    content: "\f054";
+    font-weight: bold;
+}
+.vsvt_slider_wrapper .vsvt_image_wrapper {
+    height: 250px;
+}
