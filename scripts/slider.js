@@ -9,7 +9,7 @@ jQuery(document).ready(function($) {
         autoplay: true,
         arrows: true,
         centerMode: true,
-        centerPadding: '20%',
+        centerPadding: '5%',
         dots: true, 
 
     });
